@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.flex{
+ display:flex;
+ align-items:center;
+}
+.container {
+  padding:0 15px;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: #f0f2f5;
+}
+.facebook-page{
+justify-content: space-between;
+  max-width: 1000px;
+  width: 100%;
+}
+.facebook-page h1{
+  color:#1877f2;
+  font-size:50px;
+  margin-bottom:10px; 
+}
+.facebook-page p{
+  font-weight:700;
+}
+form {
+display: flex;
+flex-direction: column;
+border: 2px solid grey ;
+background-color:white;
+padding: 20px;
+padding-left:30px;
+padding-right:30px;
+border-radius:10px;
+z-index: 2px;
+border: none;
+float:end;
+
+}
+form input{
+  padding-top:15px;
+  padding-bottom: 15px;
+  margin-top:10px;
+  padding-left:5px;
+  border: 1px solid grey;
+  border-radius:5px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+.link .login {
+  border:none;
+  border-radius: 5px;
+  background: #1877f2;
+color:#fff;
+padding-top:15px;
+  padding-bottom: 15px;
+  margin-top:10px;
+}
+.link .forget{
+  text-decoration: none;
+  color:#1877f2;
+  margin-bottom:10px;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+form a{
+  text-decoration: none;
+}
+.button{
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.button a {
+  padding: 15px 20px;
+  background: #42b72a;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1.063rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+@media (max-width: 900px) {
+  .facebook-page {
+    flex-direction: column;
+    text-align: center;
+  }
+  .facebook-page .text {
+    margin-bottom: 30px;
+  }
+}
